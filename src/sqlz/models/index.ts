@@ -3,7 +3,7 @@ import { Sequelize, Options } from 'sequelize'
 import config from '../config/config'
 
 console.log('config ---> ', config)
-console.log('process.env ---> ', process.env)
+// console.log('process.env ---> ', process.env)
 
 const dbConfig = config.development
 
