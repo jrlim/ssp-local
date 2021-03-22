@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "flymeto@80",
+    "database": "ssp_local",
+    "host": "127.0.0.1",
+    "port": 4306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "flymeto@80",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "port": 4306,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
