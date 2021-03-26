@@ -2,8 +2,8 @@ import { Sequelize, Options } from 'sequelize'
 
 import config from '../config/config'
 
-console.log('config ---> ', config)
-// console.log('process.env ---> ', process.env)
+// console.log('config ---> ', config)
+console.log('process.env.NODE_ENV ---> ', process.env.NODE_ENV)
 
 const dbConfig = config.development
 

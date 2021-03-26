@@ -65,7 +65,7 @@ CodeGroup.init({
     sequelize, modelName: 'ssp_codeXcode_group', recordOwner: true, freezeTableName: true, underscored: true, comment: '코드 그룹'
 })
 
-console.log(CodeGroup === sequelize.models.CodeGroup);
+// console.log(CodeGroup === sequelize.models.CodeGroup);
 
 //   getModelOptions(): ModelOptions {
 //     return {
